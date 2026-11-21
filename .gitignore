@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# Hardhat
+**/cache/
+**/artifacts/
+**/typechain/
+**/typechain-types/
